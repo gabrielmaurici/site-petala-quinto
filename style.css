@@ -1,0 +1,15 @@
+#sobre {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.textos-titulos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#div-integrantes {
+    background-color: rgba(66, 8, 8, 0.753);
+}
