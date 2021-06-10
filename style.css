@@ -4,12 +4,14 @@
 
 #bg-sobre {
     padding-top: 40px;
-    border-radius: 10px;
     background-image: url(./fotos/foto-banda.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
-
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-foto{
@@ -35,5 +37,4 @@
 .redes-sociais:hover{
     width: 25px;
     height: 25px;
-    fill: rgb(226, 27, 27);
 }
