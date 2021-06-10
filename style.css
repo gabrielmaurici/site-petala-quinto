@@ -1,20 +1,17 @@
+#bg-sobre {
+    border-top: 1px solid rgb(185, 185, 185);
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
 #div-integrantes {
     background-color: rgba(66, 8, 8, 0.753);
 }
 
-#bg-sobre {
-    padding-top: 40px;
-    background-image: url(./fotos/foto-banda.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: cover;
-    background-position: center;
+.borda-integrantes {
+    border: 1px solid rgb(185, 185, 185);
 }
 
-.bg-foto{
+p {
     color: rgb(206, 206, 206);
 }
 
@@ -30,11 +27,11 @@
 }
 
 .redes-sociais {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
 }
 
 .redes-sociais:hover{
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
 }
