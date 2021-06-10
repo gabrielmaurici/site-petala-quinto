@@ -1,8 +1,18 @@
-#sobre {
-    text-align: justify;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0 100px;
+#div-integrantes {
+    background-color: rgba(66, 8, 8, 0.753);
+}
+
+#bg-sobre {
+    padding-top: 40px;
+    border-radius: 10px;
+    background-image: url(./fotos/foto-banda.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.bg-foto{
+    color: rgb(206, 206, 206);
 }
 
 .textos-titulos {
@@ -10,6 +20,19 @@
     margin-bottom: 30px;
 }
 
-#div-integrantes {
-    background-color: rgba(66, 8, 8, 0.753);
+.musica-svg {
+    margin: 0 5px 5px 0;
+    width: 25px;
+    height: 25px;
+}
+
+.redes-sociais {
+    width: 18px;
+    height: 18px;
+}
+
+.redes-sociais:hover{
+    width: 25px;
+    height: 25px;
+    fill: rgb(226, 27, 27);
 }
