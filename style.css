@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 #bg-sobre {
     border-top: 1px solid rgb(185, 185, 185);
     border-bottom: 1px solid rgb(185, 185, 185);
@@ -6,10 +11,10 @@
 #div-integrantes {
     background-color: rgba(66, 8, 8, 0.753);
 }
-
+/*
 .borda-integrantes {
     border: 1px solid rgb(185, 185, 185);
-}
+}*/
 
 p {
     color: rgb(206, 206, 206);
@@ -27,11 +32,59 @@ p {
 }
 
 .redes-sociais {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
 }
 
 .redes-sociais:hover{
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.full-height {
+    height: 100vh !important;
+    overflow-y: hidden;
+}
+
+#sobre-social-media {
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    top: 45vh;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 4em;
+}
+.carousel-item img {
+    height:  auto;
+    /*height: 100vh !important;*/
+    min-height: 100vh;
+    max-height:  100vh;
+    width: auto !important;
+    min-width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .full-height-xl {
+        height: 100vh;
+    }
+    .carousel-item img {
+        height: 90vh !important;
+        width:  auto !important;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    h1 {
+        font-size: 2em;
+    }
 }
