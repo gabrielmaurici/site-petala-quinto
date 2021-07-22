@@ -2,11 +2,11 @@ html {
     overflow-x: hidden;
     max-width: 100%;
 }
-
+/*
 #bg-sobre {
     border-top: 1px solid rgb(185, 185, 185);
     border-bottom: 1px solid rgb(185, 185, 185);
-}
+}*/
 
 #div-integrantes {
     background-color: rgba(66, 8, 8, 0.753);
@@ -23,24 +23,27 @@ p {
 .textos-titulos {
     text-align: center;
     margin-bottom: 30px;
+    font-size:  2.5em;
 }
 
 .musica-svg {
     margin: 0 5px 5px 0;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .redes-sociais {
+    margin-left: -8px;
+}
+
+.redes-sociais img {
     width: 26px;
     height: 26px;
 }
 
-.redes-sociais:hover{
-    width: 30px;
-    height: 30px;
-    margin-top: -2px;
-    margin-bottom: -2px;
+.redes-sociais-menu img{
+    width: 35px;
+    height: 35px;
 }
 
 .full-height {
@@ -51,6 +54,11 @@ p {
 #sobre-social-media {
     margin-bottom: 12px;
     margin-top: 15px;
+    padding-top: 12pt;
+}
+
+ul.text-center {
+    padding-left: 0;
 }
 
 h1 {
@@ -74,6 +82,10 @@ h1 {
     transform: translateX(-50%);
 }
 
+.contact-item {
+    color:  white;
+}
+
 @media only screen and (max-width: 600px) {
     .full-height-xl {
         height: 100vh;
@@ -86,5 +98,26 @@ h1 {
     }
     h1 {
         font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .redes-sociais:hover img{
+        width: 30px;
+        height: 30px;
+        margin-top: -2px;
+        margin-bottom: -2px;
+    }
+
+    .redes-sociais:hover {
+        font-size: 1.1em;
+        font-weight: 550;
+        margin-bottom: -.07em;
+    }
+
+    .redes-sociais-menu img:hover{
+        width: 45px;
+        height: 45px;
+        margin: -5px;
     }
 }
