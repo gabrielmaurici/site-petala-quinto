@@ -11,10 +11,11 @@ html {
 #div-integrantes {
     background-color: rgba(66, 8, 8, 0.753);
 }
-/*
-.borda-integrantes {
-    border: 1px solid rgb(185, 185, 185);
-}*/
+
+#img-capa-romances {
+    width: 35%;
+    margin: 45pt;
+}
 
 p {
     color: rgb(206, 206, 206);
@@ -98,6 +99,10 @@ h1 {
     }
     h1 {
         font-size: 2em;
+    }
+    #img-capa-romances {
+        width: 85%;
+        margin: 45pt 0;
     }
 }
 
