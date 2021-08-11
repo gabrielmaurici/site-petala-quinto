@@ -2,11 +2,6 @@ html {
     overflow-x: hidden;
     max-width: 100%;
 }
-/*
-#bg-sobre {
-    border-top: 1px solid rgb(185, 185, 185);
-    border-bottom: 1px solid rgb(185, 185, 185);
-}*/
 
 #div-integrantes {
     background-color: rgba(66, 8, 8, 0.753);
@@ -72,6 +67,7 @@ h1 {
     font-family: serif;
     font-size: 4em;
 }
+
 .carousel-item img {
     height:  auto;
     /*height: 100vh !important;*/
@@ -85,6 +81,10 @@ h1 {
 
 .contact-item {
     color:  white;
+}
+
+.destaques {
+    margin: 6.5em 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,6 +107,12 @@ h1 {
 }
 
 @media only screen and (min-width: 601px) {
+
+    .destaques {
+        width: 60% !important;
+        margin-left: 20%;
+    }
+
     .redes-sociais:hover img{
         width: 30px;
         height: 30px;

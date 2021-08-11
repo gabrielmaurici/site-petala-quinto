@@ -14,7 +14,7 @@
       <!-- Header -->
       <header>
           <!-- Carrossel -->
-          <div id="carouselExampleCaptions" class="carousel slide full-height-xl full-height" data-bs-ride="carousel" data-pause="false">
+          <div id="myCarousel" class="carousel slide full-height-xl full-height" data-bs-ride="carousel" data-pause="false" data-interval="3000">
             <div class="carousel-inner">
               <div class="carousel-item">
                 <img src="fotos/zeca-rosto.jpg" class="d-block w-100" alt="Vocalista Zeca">
@@ -40,7 +40,7 @@
               <div class="carousel-item active">
                 <img src="fotos/vicent-rosto.jpg" class="d-block w-100" alt="Baixista Vicent">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Vicent Erbs</h5>
+                  <h5>Vicente Erbs</h5>
                   <p>Baixo & Backing Vocals</p>
                 </div>
               </div>
@@ -52,6 +52,12 @@
                 </div>
               </div>
             </div>
+            <<!-- a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a> -->
           </div>
 
           <!-- NavBar -->
@@ -74,7 +80,7 @@
               <div class="aside-section aside-right">
                 <ul class="aside-list">
                   <li><a href="#sobreNos" class="aside-anchor" onclick="close_menu()">Sobre Nós</a></li>
-                  <li><a href="#integrantes" class="aside-anchor" onclick="close_menu()">Integrantes</a></li>
+                  <li><a href="#destaques" class="aside-anchor" onclick="close_menu()">Destaques</a></li>
                   <li><a href="#sobre" class="aside-anchor" onclick="close_menu()">Contatos</a></li>
                 </ul>
               </div>
@@ -103,12 +109,22 @@
                 <a class="nav-link redes-sociais" href="mailto:contato@petalaquinto.com.br" target="_blank"><img src="./svg/envelope-fill.svg" class="" alt="Email"><span class="contact-item"><span style="padding: 2px"> </span>contato@petalaquinto.com.br</span></a>
               </li>
             </ul>
+
+            <div class="destaques" id="destaques">
+              <div class="text-center">
+                <h3 class="textos-titulos text-light">
+                  <!-- <span><img src="./svg/005-vinyl.svg" class="musica-svg" alt="Disco Vinil"></span> -->
+                  Romances & Suspenses
+                </h3>
+                <p></p>
+                <iframe src="https://open.spotify.com/embed/artist/48pvKtSaGzZ1RPpy9psyGY" width="100%" height="210" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            </div>
             
           </div>
           <div class="mt-5">
             <a name="sobreNos">
               <h3 class="textos-titulos text-light">
-                <span><img src="./svg/005-vinyl.svg" class="musica-svg" alt="Disco Vinil"></span>
                 Sobre Nós
               </h3>
             </a>
@@ -125,100 +141,6 @@
             <img id="img-capa-romances" src="fotos/capa_romances.jpg" alt="Capa Romances e Suspenses">
           </div>
         </div>
-
-        <!-- Âncora Integrantes-->
-        <a name="integrantes">
-          <h3 class="textos-titulos text-light">
-            <span><img src="./svg/002-drumstick.svg" class="musica-svg" alt="Baquetas"></span>
-            Integrantes
-          </h3>
-        </a>
-        <div id="div-integrantes" class="container-fluid pt-5">
-          <div class="row">
-            <div class="col-md-12 col-xl-5 d-flex justify-content-center pb-5">
-              <img src="./fotos/zeca-longe.jpg" class="img-fluid img-responsive borda-integrantes" alt="Zeca Longe">
-            </div>
-            <div class="col-md-12 col-xl-7 pb-5">
-              <h5 class="text-light pb-3">Zeca Zendron
-                <!-- <a class="px-2" href="https://www.instagram.com/zecazn/" target="_blank"><img src="./svg/instagram-brands.svg" class="redes-sociais" alt="Instagram"></a>
-                <a href="https://open.spotify.com/playlist/1N3mWbYC65Gikn42bgd9bX?si=b-43aKvNTMCcxiSbP6lsbA&nd=1" target="_blank"><img src="./svg/spotify-brands.svg" class="" alt="Facebook"></a> -->
-              </h5>
-              <p class="text-justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est similique iusto nisi earum aspernatur eos, explicabo amet, voluptate excepturi delectus doloribus, architecto consequuntur a labore magni consequatur doloremque vel. Corruptr
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error eum mollitia voluptas amet autem veritatis! Quas itaque veritatis ex cumque assumenda quibusdam? Porro illum cum, repellendus ducimus itaque odit.
-              </p>
-            </div> 
-          </div> 
-          <div class="w-100"></div>
-          <div class="row">
-            <div class="col-md-12 col-xl-5 d-flex justify-content-center pb-5">
-              <img src="./fotos/maurici-longe.jpg" class="img-fluid img-responsive borda-integrantes" alt="Gabriel Maurici Longe">
-            </div>
-            <div class="col-md-12 col-xl-7 pb-5">
-              <h5 class="text-light pb-3">Gabriel Maurici
-                <!-- <a class="px-2" href="https://www.instagram.com/gabrielmauricii/" target="_blank"><img src="./svg/instagram-brands.svg" class="redes-sociais" alt="Instagram"></a>
-                <a href="https://open.spotify.com/playlist/3mIZsCe5AEojLI7dYHlXhA?si=6a9760762187475e" target="_blank"><img src="./svg/spotify-brands.svg" class="redes-sociais" alt="Facebook"></a> -->
-              </h5>
-              <p class="text-justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est similique iusto nisi earum aspernatur eos,    explicabo amet, voluptate excepturi delectus doloribus, architecto consequuntur a labore magni consequatur doloremque vel. Corruptr
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error eum mollitia voluptas amet autem veritatis! Quas itaque veritatis ex cumque assumenda quibusdam? Porro illum cum, repellendus ducimus itaque odit.
-              </p>
-            </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="row">  
-            <div class="col-md-12 col-xl-5 d-flex justify-content-center pb-5">
-              <img src="./fotos/cunha-longe.jpg" class="img-fluid img-responsive borda-integrantes" alt="Vitor Cunha Longe">
-            </div>
-            <div class="col-md-12 col-xl-7 pb-5">
-              <h5 class="text-light pb-3">Vitor Cunha
-                <!-- <a class="px-2" href="https://www.instagram.com/vitor_cunhaaa/" target="_blank"><img src="./svg/instagram-brands.svg" class="redes-sociais" alt="Instagram"></a>
-                <a href="https://open.spotify.com/playlist/2sdCBzi8keBzJnDRI59s1p?si=ec342abf96214eb5" target="_blank"><img src="./svg/spotify-brands.svg" class="redes-sociais" alt="Facebook"></a> -->
-              </h5>
-              <p class="text-justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est similique iusto nisi earum aspernatur eos, explicabo amet, voluptate excepturi delectus doloribus, architecto consequuntur a labore magni consequatur doloremque vel. Corruptr
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error eum mollitia voluptas amet autem veritatis! Quas itaque veritatis ex cumque assumenda quibusdam? Porro illum cum, repellendus ducimus itaque odit.
-              </p>
-            </div>
-          </div>  
-          <div class="w-100"></div>
-          <div class="row">  
-            <div class="col-md-12 col-xl-5 d-flex justify-content-center pb-5">
-              <img src="./fotos/vicent-longe.jpg" class="img-fluid img-responsive borda-integrantes" alt="Vicent Erbs Longe">
-            </div>
-            <div class="col-md-12 col-xl-7 pb-5">
-              <h5 class="text-light pb-3">Vicent Erbs
-             <!--    <a class="px-2" href="https://www.instagram.com/vicenteerbs/" target="_blank"><img src="./svg/instagram-brands.svg" class="redes-sociais" alt="Instagram"></a>
-                <a href="https://open.spotify.com/playlist/2xQjYNItGy6BiTw0n0tFK3?si=ARctH-7vQ1ehIFYMMd_gdA&nd=1" target="_blank"><img src="./svg/spotify-brands.svg" class="redes-sociais" alt="Facebook"></a> -->
-              </h5>
-              <p class="text-justify">
-                Tu curte pimenta?
-              </p>
-            </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="class row">
-            <div class="col-md-12 col-xl-5 d-flex justify-content-center pb-5">
-              <img src="./fotos/antonio-longe.jpg" class="img-fluid img-responsive borda-integrantes" alt="Antônio Luiz Longe">
-            </div>
-            <div class="col-md-12 col-xl-7 pb-5">
-              <h5 class="text-light pb-3">Antônio Luiz
-               <!--  <a class="px-2" href="https://www.instagram.com/antoniolsneto/" target="_blank"><img src="./svg/instagram-brands.svg" class="redes-sociais" alt="Instagram"></a>
-                <a href="https://open.spotify.com/playlist/6Avwqs1uapgEr6RHlN4UnS?si=MJ7LgY_cSV2LTmK834k3Ig&nd=1" target="_blank"><img src="./svg/spotify-brands.svg" class="redes-sociais" alt="Facebook"></a> -->
-              </h5>
-              <p class="text-justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est similique iusto nisi earum aspernatur eos, explicabo amet, voluptate excepturi delectus doloribus, architecto consequuntur a labore magni consequatur doloremque vel. Corruptr
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error eum mollitia voluptas amet autem veritatis! Quas itaque veritatis ex cumque assumenda quibusdam? Porro illum cum, repellendus ducimus itaque odit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </main>
-      <!-- <footer>
-        <div class="container-fluid">
-          <a name="contatos"><h5 class="text-light text-center mt-3">Contatos</h5></a>
-        </div>
-      </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script>
